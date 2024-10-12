@@ -1,7 +1,7 @@
 {
-  "name": "Cool Scarlet",
-  "description": "A sleek, modern theme with bold red accents and a dark background.",
-  "version": "1.0",
+  "name": "Scarlet Inferno",
+  "description": "A dark, fiery theme with vibrant red accents and sleek black tones.",
+  "version": "2.0",
   "authors": [
     {
       "name": "YourName",
@@ -9,56 +9,59 @@
     }
   ],
   "semanticColors": {
-    "ANDROID_RIPPLE": ["#ff4a5a"],
-    "CHAT_BACKGROUND": ["#1e1e1e"],
-    "HEADER_PRIMARY": ["#ff4655"],
-    "HEADER_SECONDARY": ["#fffeff"],
+    "ANDROID_RIPPLE": ["#ff354d"],
+    "CHAT_BACKGROUND": ["#111111"],
+    "HEADER_PRIMARY": ["#ff4b6b"],
+    "HEADER_SECONDARY": ["#eaeaea"],
     "TEXT_NORMAL": ["#ffffff"],
-    "TEXT_MUTED": ["#cccccc"],
-    "INTERACTIVE_NORMAL": ["#ff4655"],
-    "INTERACTIVE_HOVER": ["#ff6870"],
-    "INTERACTIVE_ACTIVE": ["#ffffff"],
-    "INTERACTIVE_MUTED": ["#8a8ebf"],
-    "BACKGROUND_PRIMARY": ["#121212"], 
-    "CARD_PRIMARY_BG": ["#1c1c1c"],
-    "BACKGROUND_SECONDARY": ["#242424"],
-    "CARD_SECONDARY_BG": ["#2B2833"],
-    "BACKGROUND_ACCENT": ["#ff4655"],
-    "BACKGROUND_TERTIARY": ["#202028"],
-    "BACKGROUND_MESSAGE_HOVER": ["#ffffff05"],
-    "BACKGROUND_MODIFIER_HOVER": ["#ff46551a"],
-    "BACKGROUND_MODIFIER_ACTIVE": ["#ffffff14"],
-    "BACKGROUND_MODIFIER_SELECTED": ["#ffffff0a"],
-    "TEXT_PRIMARY": ["#dbdee1"],
-    "TEXT_LINK": ["#ff6870"]
+    "TEXT_MUTED": ["#b3b3b3"],
+    "INTERACTIVE_NORMAL": ["#ff4b6b"],
+    "INTERACTIVE_HOVER": ["#ff6a85"],
+    "INTERACTIVE_ACTIVE": ["#ff324d"],
+    "INTERACTIVE_MUTED": ["#666666"],
+    "BACKGROUND_PRIMARY": ["#0d0d0d"], 
+    "CARD_PRIMARY_BG": ["#1b1b1b"],
+    "BACKGROUND_SECONDARY": ["#212121"],
+    "CARD_SECONDARY_BG": ["#2a2a2a"],
+    "BACKGROUND_ACCENT": ["#ff4b6b"],
+    "BACKGROUND_TERTIARY": ["#191919"],
+    "BACKGROUND_MESSAGE_HOVER": ["#ff4b6b10"],
+    "BACKGROUND_MODIFIER_HOVER": ["#ff4b6b1a"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#ff4b6b29"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#ff4b6b0d"],
+    "TEXT_PRIMARY": ["#f0f0f0"],
+    "TEXT_LINK": ["#ff6a85"]
   },
   "rawColors": {
-    "PRIMARY_100": "#ff4655",
-    "PRIMARY_200": "#ff4655",
-    "PRIMARY_300": "#fffeff",
+    "PRIMARY_100": "#ff4b6b",
+    "PRIMARY_200": "#ff324d",
+    "PRIMARY_300": "#ffffff",
     "PRIMARY_400": "#d63a49",
-    "PRIMARY_500": "#ff6870",
+    "PRIMARY_500": "#ff6a85",
     "PRIMARY_600": "#1e1e1e",
-    "BACKGROUND_MODIFIER": "#25242d",
-    "BACKGROUND_LIGHT": "#121212",
-    "TEXT_RED": "#ff4655",
+    "BACKGROUND_MODIFIER": "#25252d",
+    "BACKGROUND_LIGHT": "#0a0a0a",
+    "TEXT_RED": "#ff4b6b",
     "TEXT_WHITE": "#ffffff",
-    "ACCENT_RED": "#ff4655",
-    "ACCENT_HOVER": "#ff6870"
+    "ACCENT_RED": "#ff6a85",
+    "ACCENT_HOVER": "#ff4b6b"
   },
   "background": {
-    "blur": 0.1,
-    "url": "https://raw.githubusercontent.com/scarlet1837/images/refs/heads/main/Scarlet.webp"
+    "blur": 0.15,
+    "url": "https://raw.githubusercontent.com/scarlet1837/images/refs/heads/main/Scarlet.webp",
+    "position": "center",
+    "size": "cover",
+    "overlay": "#00000060" 
   },
   "plus": {
     "version": "1",
-    "mentionLineColor": "#ff4655",
+    "mentionLineColor": "#ff4b6b",
     "customOverlays": true,
     "icons": {
-      "ic_radio_circle_checked": "#ff4655",
-      "ic_radio_square_checked_24px": "#ff6870",
-      "StatusMobileOnline": "#ff4655",
-      "StatusOnline": "#ff6870"
+      "ic_radio_circle_checked": "#ff4b6b",
+      "ic_radio_square_checked_24px": "#ff6a85",
+      "StatusMobileOnline": "#ff4b6b",
+      "StatusOnline": "#ff6a85"
     }
   },
   "fonts": {
