@@ -1,0 +1,32 @@
+{
+  "name": "scarlet script Theme",
+  "author": "by https://discord.gg/pTmc8uEqJr",
+  "version": "1.0",
+  "background": {
+    "image": "https://raw.githubusercontent.com/scarlet1837/images/refs/heads/main/Scarlet.webp",
+    "blur": true,
+    "overlay_color": "rgba(0, 0, 0, 0.5)"  // Adds a subtle overlay to enhance text readability
+  },
+  "colors": {
+    "primary": "#7289da",  // Discord blue
+    "background_primary": "#36393f",  // Discord dark background
+    "background_secondary": "#2f3136",  // Slightly lighter for panels
+    "text_normal": "#ffffff",  // White text for contrast
+    "text_muted": "#b9bbbe",  // Muted text color
+    "accent": "#5865F2"  // Accent for buttons, highlights
+  },
+  "font": {
+    "family": "Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif",
+    "size": "16px"
+  },
+  "button": {
+    "background_color": "#5865F2",  // Blue accent for buttons
+    "text_color": "#ffffff",
+    "hover_background_color": "#4752C4"
+  },
+  "input": {
+    "background_color": "#202225",  // Input field background
+    "text_color": "#ffffff",
+    "border_color": "#4f545c"
+  }
+}
