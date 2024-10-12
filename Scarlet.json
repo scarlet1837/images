@@ -1,32 +1,39 @@
 {
-  "name": "scarlet script Theme",
-  "author": "by https://discord.gg/pTmc8uEqJr",
+  "name": "Cool Scarlet Enmity Theme",
+  "author": "YourName",
   "version": "1.0",
   "background": {
     "image": "https://raw.githubusercontent.com/scarlet1837/images/refs/heads/main/Scarlet.webp",
     "blur": true,
-    "overlay_color": "rgba(0, 0, 0, 0.5)"  // Adds a subtle overlay to enhance text readability
+    "brightness": 0.75,
+    "overlay_color": "rgba(0, 0, 0, 0.6)",
+    "overlay_blur": true
   },
   "colors": {
-    "primary": "#7289da",  // Discord blue
-    "background_primary": "#36393f",  // Discord dark background
-    "background_secondary": "#2f3136",  // Slightly lighter for panels
-    "text_normal": "#ffffff",  // White text for contrast
-    "text_muted": "#b9bbbe",  // Muted text color
-    "accent": "#5865F2"  // Accent for buttons, highlights
+    "primary": "#ff4655",
+    "background_primary": "#101010",
+    "background_secondary": "#181818",
+    "text_normal": "#f2f2f2",
+    "text_muted": "#a6a6a6",
+    "accent": "#ff4655"
   },
   "font": {
-    "family": "Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif",
-    "size": "16px"
+    "family": "'Poppins', 'Roboto', 'Helvetica Neue', sans-serif",
+    "size": "16px",
+    "weight": "500"
   },
   "button": {
-    "background_color": "#5865F2",  // Blue accent for buttons
+    "background_color": "#ff4655",
     "text_color": "#ffffff",
-    "hover_background_color": "#4752C4"
+    "hover_background_color": "#d63a49",
+    "border_radius": "8px",
+    "padding": "10px 20px"
   },
   "input": {
-    "background_color": "#202225",  // Input field background
+    "background_color": "#202020",
     "text_color": "#ffffff",
-    "border_color": "#4f545c"
+    "border_color": "#ff4655",
+    "border_radius": "5px",
+    "padding": "8px 16px"
   }
 }
