@@ -1,39 +1,70 @@
 {
-  "name": "Cool Scarlet Enmity Theme",
-  "author": "YourName",
+  "name": "Cool Scarlet",
+  "description": "A sleek, modern theme with bold red accents and a dark background.",
   "version": "1.0",
+  "authors": [
+    {
+      "name": "YourName",
+      "id": "YourDiscordID"
+    }
+  ],
+  "semanticColors": {
+    "ANDROID_RIPPLE": ["#ff4a5a"],
+    "CHAT_BACKGROUND": ["#1e1e1e"],
+    "HEADER_PRIMARY": ["#ff4655"],
+    "HEADER_SECONDARY": ["#fffeff"],
+    "TEXT_NORMAL": ["#ffffff"],
+    "TEXT_MUTED": ["#cccccc"],
+    "INTERACTIVE_NORMAL": ["#ff4655"],
+    "INTERACTIVE_HOVER": ["#ff6870"],
+    "INTERACTIVE_ACTIVE": ["#ffffff"],
+    "INTERACTIVE_MUTED": ["#8a8ebf"],
+    "BACKGROUND_PRIMARY": ["#121212"], 
+    "CARD_PRIMARY_BG": ["#1c1c1c"],
+    "BACKGROUND_SECONDARY": ["#242424"],
+    "CARD_SECONDARY_BG": ["#2B2833"],
+    "BACKGROUND_ACCENT": ["#ff4655"],
+    "BACKGROUND_TERTIARY": ["#202028"],
+    "BACKGROUND_MESSAGE_HOVER": ["#ffffff05"],
+    "BACKGROUND_MODIFIER_HOVER": ["#ff46551a"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#ffffff14"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#ffffff0a"],
+    "TEXT_PRIMARY": ["#dbdee1"],
+    "TEXT_LINK": ["#ff6870"]
+  },
+  "rawColors": {
+    "PRIMARY_100": "#ff4655",
+    "PRIMARY_200": "#ff4655",
+    "PRIMARY_300": "#fffeff",
+    "PRIMARY_400": "#d63a49",
+    "PRIMARY_500": "#ff6870",
+    "PRIMARY_600": "#1e1e1e",
+    "BACKGROUND_MODIFIER": "#25242d",
+    "BACKGROUND_LIGHT": "#121212",
+    "TEXT_RED": "#ff4655",
+    "TEXT_WHITE": "#ffffff",
+    "ACCENT_RED": "#ff4655",
+    "ACCENT_HOVER": "#ff6870"
+  },
   "background": {
-    "image": "https://raw.githubusercontent.com/scarlet1837/images/refs/heads/main/Scarlet.webp",
-    "blur": true,
-    "brightness": 0.75,
-    "overlay_color": "rgba(0, 0, 0, 0.6)",
-    "overlay_blur": true
+    "blur": 0.1,
+    "url": "https://raw.githubusercontent.com/scarlet1837/images/refs/heads/main/Scarlet.webp"
   },
-  "colors": {
-    "primary": "#ff4655",
-    "background_primary": "#101010",
-    "background_secondary": "#181818",
-    "text_normal": "#f2f2f2",
-    "text_muted": "#a6a6a6",
-    "accent": "#ff4655"
+  "plus": {
+    "version": "1",
+    "mentionLineColor": "#ff4655",
+    "customOverlays": true,
+    "icons": {
+      "ic_radio_circle_checked": "#ff4655",
+      "ic_radio_square_checked_24px": "#ff6870",
+      "StatusMobileOnline": "#ff4655",
+      "StatusOnline": "#ff6870"
+    }
   },
-  "font": {
-    "family": "'Poppins', 'Roboto', 'Helvetica Neue', sans-serif",
-    "size": "16px",
-    "weight": "500"
+  "fonts": {
+    "Roboto-Bold": "https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlvAw.ttf",
+    "Roboto-Medium": "https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf",
+    "Roboto-Regular": "https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu4mxP.ttf"
   },
-  "button": {
-    "background_color": "#ff4655",
-    "text_color": "#ffffff",
-    "hover_background_color": "#d63a49",
-    "border_radius": "8px",
-    "padding": "10px 20px"
-  },
-  "input": {
-    "background_color": "#202020",
-    "text_color": "#ffffff",
-    "border_color": "#ff4655",
-    "border_radius": "5px",
-    "padding": "8px 16px"
-  }
+  "spec": 2
 }
