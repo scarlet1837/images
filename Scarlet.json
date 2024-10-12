@@ -1,0 +1,73 @@
+{
+  "name": "Scarlet Inferno",
+  "description": "A dark, fiery theme with vibrant red accents and sleek black tones.",
+  "version": "2.0",
+  "authors": [
+    {
+      "name": "YourName",
+      "id": "YourDiscordID"
+    }
+  ],
+  "semanticColors": {
+    "ANDROID_RIPPLE": ["#ff354d"],
+    "CHAT_BACKGROUND": ["#111111"],
+    "HEADER_PRIMARY": ["#ff4b6b"],
+    "HEADER_SECONDARY": ["#eaeaea"],
+    "TEXT_NORMAL": ["#ffffff"],
+    "TEXT_MUTED": ["#b3b3b3"],
+    "INTERACTIVE_NORMAL": ["#ff4b6b"],
+    "INTERACTIVE_HOVER": ["#ff6a85"],
+    "INTERACTIVE_ACTIVE": ["#ff324d"],
+    "INTERACTIVE_MUTED": ["#666666"],
+    "BACKGROUND_PRIMARY": ["#0d0d0d"], 
+    "CARD_PRIMARY_BG": ["#1b1b1b"],
+    "BACKGROUND_SECONDARY": ["#212121"],
+    "CARD_SECONDARY_BG": ["#2a2a2a"],
+    "BACKGROUND_ACCENT": ["#ff4b6b"],
+    "BACKGROUND_TERTIARY": ["#191919"],
+    "BACKGROUND_MESSAGE_HOVER": ["#ff4b6b10"],
+    "BACKGROUND_MODIFIER_HOVER": ["#ff4b6b1a"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#ff4b6b29"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#ff4b6b0d"],
+    "TEXT_PRIMARY": ["#f0f0f0"],
+    "TEXT_LINK": ["#ff6a85"]
+  },
+  "rawColors": {
+    "PRIMARY_100": "#ff4b6b",
+    "PRIMARY_200": "#ff324d",
+    "PRIMARY_300": "#ffffff",
+    "PRIMARY_400": "#d63a49",
+    "PRIMARY_500": "#ff6a85",
+    "PRIMARY_600": "#1e1e1e",
+    "BACKGROUND_MODIFIER": "#25252d",
+    "BACKGROUND_LIGHT": "#0a0a0a",
+    "TEXT_RED": "#ff4b6b",
+    "TEXT_WHITE": "#ffffff",
+    "ACCENT_RED": "#ff6a85",
+    "ACCENT_HOVER": "#ff4b6b"
+  },
+  "background": {
+    "blur": 0.15,
+    "url": "https://raw.githubusercontent.com/scarlet1837/images/refs/heads/main/Scarlet.webp",
+    "position": "center",
+    "size": "cover",
+    "overlay": "#00000060" 
+  },
+  "plus": {
+    "version": "1",
+    "mentionLineColor": "#ff4b6b",
+    "customOverlays": true,
+    "icons": {
+      "ic_radio_circle_checked": "#ff4b6b",
+      "ic_radio_square_checked_24px": "#ff6a85",
+      "StatusMobileOnline": "#ff4b6b",
+      "StatusOnline": "#ff6a85"
+    }
+  },
+  "fonts": {
+    "Roboto-Bold": "https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlvAw.ttf",
+    "Roboto-Medium": "https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf",
+    "Roboto-Regular": "https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu4mxP.ttf"
+  },
+  "spec": 2
+}
